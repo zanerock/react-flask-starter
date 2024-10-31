@@ -24,5 +24,3 @@ EXPOSE 8081
 
 # Command to run the executable
 CMD ["./main"]
-
-# pointless comment for testing DEBUG
