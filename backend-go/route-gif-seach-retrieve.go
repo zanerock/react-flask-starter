@@ -33,7 +33,7 @@ func gifSearchGet(w http.ResponseWriter, r *http.Request) {
             http.Error(w, fmt.Sprintf("No such search ID '%s'.", idString), http.StatusBadRequest)
             return
         }
-        serverError(w, "There was an error while retrieving your search.", err)
+        serverError(w, "Yo! There was an error while retrieving your search.", err)
     }
 
     w.Header().Set("Content-Type", "application/json")
