@@ -27,3 +27,5 @@ and [Shipyard](https://shipyard.build) out of the box.
 - Make your code changes! The app will reload whenever you save.
 
 Cheers!
+
+Trigger PR app build.
