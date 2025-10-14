@@ -93,6 +93,13 @@ services:
     ports:
       - '8080:8080'
 
+  job:
+    labels:
+      shipyard.job: true
+    image: 'alpine:latest'   
+    command:
+      - "false"
+
 volumes:
   postgres:
   localstack:
