@@ -82,7 +82,7 @@ services:
       - "127.0.0.1:4566:4566"            # LocalStack Gateway
       - "127.0.0.1:4510-4559:4510-4559"  # external services port range
 
-  proxy:
+  proxy-with-a-sixty-three-char-serv-name-for-testing-long-names:
     image: 'nginx:1.27'
     labels:
       shipyard.route: '/'
